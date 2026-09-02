@@ -19,7 +19,7 @@ class VoiceBot(discord.Client):
         # Статус: Играет в шахматы
         await self.change_presence(
             status=discord.Status.online,
-            activity=discord.Game(name="в шахматы")
+            activity=discord.Game(name="Играет в шахматы")
         )
 
         await self.connect_to_voice()
